@@ -1,0 +1,233 @@
+body {
+  margin: 0;
+  background-color: #F5FFFA;
+}
+
+.homepage {
+  text-align: center;
+}
+
+.dotted-hr {
+  border: dotted #ADEFD1FF 6px;
+  border-bottom: none;
+  width: 5%;
+}
+
+/******************************************** NAV BAR *********************************************/
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 50px;
+  padding-top: 15px;
+}
+
+nav a {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  color: #ADEFD1FF;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.right-nav-list-item {
+  padding-right: 250px;
+}
+
+/******************************************** FONT STYLING *********************************************/
+
+h1 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+h2 {
+  font-family: 'Quicksand', sans-serif;
+  color: #00203FFF;
+  font-size: 50px;
+}
+
+h3 {
+  font-family: 'Quicksand', sans-serif;
+  color: #00203FFF;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+}
+
+hr {
+  margin-bottom: 0;
+  border: 1px solid #00203FFF;
+}
+
+a {
+  text-decoration: none;
+}
+
+.homepage-h1 {
+  font-size: 100px;
+  font-weight: 500;
+  color: #ADEFD1FF;
+  margin: 0;
+  padding-top: 25px;
+}
+
+.homepage-p {
+  color: #ADEFD1FF;
+  margin: 0;
+  padding-top: 50px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.experience-row p {
+  text-align: left;
+  line-height: 1.5;
+}
+
+.footer p {
+  padding-left: 30px;
+  display: inline;
+  color: #ADEFD1FF;
+}
+
+.footer a {
+  color: #ADEFD1FF;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.contact-me h3 {
+  padding-bottom: 40px;
+}
+
+
+/******************************************** CONTAINER + DIV STYLING *********************************************/
+
+.homepage-top-container {
+  background-color: #00203FFF;
+  height: 675px;
+  padding-top: 140px;
+  position: relative;
+}
+
+.profile {
+  width: 50%;
+  text-align: center;
+  margin: 140px auto 50px auto;
+}
+
+.experience-row {
+  width: 60%;
+  text-align: center;
+  margin: 125px auto 125px auto;
+}
+
+.contact-me {
+  height: 675px;
+  padding-top: 140px;
+  text-align: center;
+}
+
+.footer {
+  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  background-color: #00203FFF;
+}
+
+.header{
+  background-color: #00203FFF;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  width: 99.99%;
+  z-index: 1;
+}
+
+
+/******************************************** IMAGE STYLING *********************************************/
+
+.homepage-avatar {
+  height: 200px;
+  width: 200px;
+}
+
+.work-avatar {
+  height: 200px;
+  width: 200px;
+}
+
+.palantir-logo {
+  height: 150px;
+  width: 150px;
+  float: right;
+  padding-left: 100px;
+}
+
+.rm-logo {
+  height: 150px;
+  float: left;
+  padding-right: 90px;
+}
+
+.cat2see-logo {
+  height: 150px;
+  float: right;
+  padding-left: 110px;
+}
+
+.metis-logo {
+  height: 125px;
+  float: left;
+  padding-right: 50px;
+}
+
+/******************************************** BUTTON STYLING *********************************************/
+
+.header-logo {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  color: #00203F !important;
+  font-size: 20px;
+  padding: 5px 5px;
+  border-radius: 20px;
+  border: 1px solid #ADEFD1;
+  background: #ADEFD1;
+  float: left;
+  margin-top: 10px;
+  margin-left: 250px;
+}
+.contact-button {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  color: #ADEFD1 !important;
+  font-size: 16px;
+  padding: 10px 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  border: 1px solid #00203F;
+  background: #00203F;
+}
+.contact-button:hover {
+  color: #FFFFFF !important;
+  background: #00203FF;
+}
