@@ -62,6 +62,14 @@ h2 {
 h3 {
   font-family: 'Quicksand', sans-serif;
   color: #00203FFF;
+  margin-bottom: 5px;
+}
+
+h4 {
+  font-family: 'Quicksand', sans-serif;
+  color: #00203FFF;
+  margin-top: 0;
+  font-style: italic;
 }
 
 p {
@@ -96,6 +104,14 @@ a {
 .experience-row p {
   text-align: left;
   line-height: 1.5;
+}
+
+.experience-row h3, p {
+  overflow: hidden;
+}
+
+.experience-row h3 {
+  white-space: nowrap;
 }
 
 .footer p {
@@ -134,7 +150,7 @@ a {
 }
 
 .experience-row {
-  width: 60%;
+  width: 70%;
   text-align: center;
   margin: 125px auto 125px auto;
 }
